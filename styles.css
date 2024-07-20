@@ -1,0 +1,139 @@
+body {
+  text-align: center;
+  background-color: white;
+}
+
+h1 {
+  font-size: 5rem;
+  color: black;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.d20v1 {
+  background-image: url(images/real/20.png);
+  background-size: 150px;
+}
+
+.d4v1 {
+  background-image: url(images/real/4.png);
+  background-size: 150px;
+}
+
+.d6v1 {
+  background-image: url(images/real/6.png);
+  background-size: 150px;
+}
+
+.d8v1 {
+  background-image: url(images/real/8.png);
+  background-size: 150px;
+}
+
+.d10v1 {
+  background-image: url(images/real/10.png);
+  background-size: 150px;
+}
+
+.d12v1 {
+  background-image: url(images/real/12.png);
+  background-size: 150px;
+}
+
+.d100v1 {
+  background-image: url(images/real/100.png);
+  background-size: 150px;
+}
+
+.d20v2 {
+  background-image: url(images/real/b20.png);
+  background-size: 150px;
+}
+
+.d4v2 {
+  background-image: url(images/real/b4.png);
+  background-size: 150px;
+}
+
+.d6v2 {
+  background-image: url(images/real/b6.png);
+  background-size: 150px;
+}
+
+.d8v2 {
+  background-image: url(images/real/b8.png);
+  background-size: 150px;
+}
+
+.d10v2 {
+  background-image: url(images/real/b10.png);
+  background-size: 150px;
+}
+
+.d12v2 {
+  background-image: url(images/real/b12.png);
+  background-size: 150px;
+}
+
+.d100v2 {
+  background-image: url(images/real/b100.png);
+  background-size: 150px;
+}
+
+
+
+
+.dice {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.die {
+  outline: none;
+  border: none;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 0px;
+  background-color: white;
+}
+
+.die span {
+  visibility: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;    /* Center vertically */
+  height: 10vh;          /* Full viewport height */
+}
+
+#console {
+  width: 300px;
+  height: 200px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
